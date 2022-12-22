@@ -1,0 +1,128 @@
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }
+
+#name {
+    color: black;
+    padding: 20px;
+    float:left; 
+    text-align: left;
+  }
+#job{
+    color: black;
+    padding: 20px;
+     float:left; 
+
+    text-align: left;
+}
+#rcp{
+    color: black;
+    padding: 20px;
+    text-align: right;
+    float:right;
+}
+#desc{
+    color: black;
+    width: 50%;
+
+    text-align: left;
+
+
+}
+.user {
+    float: right;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+
+  }
+#back{
+    background-color: whitesmoke;
+    overflow: hidden;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+#content{
+
+    background-color: whitesmoke;
+    overflow: hidden;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+
+}
+#profile{
+
+    background-color: whitesmoke;
+    float: left;
+    width: 50%;
+}
+#bio{
+    background-color: whitesmoke;
+    float: right;
+    width: 49%;
+
+}
+.spacers{
+    width: 25%;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+
+}
+.connections{
+
+    background-color: whitesmoke;
+    overflow: hidden;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+#link{
+    background-color: whitesmoke;
+    float: right;
+    width: 49%;
+    border-width: thin;
+    border-color: black;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+    float: left;
+  }
+  .circle:nth-child(1){
+    background-color: blueviolet;
+  }
+  .circle:nth-child(2){
+    background-color: orange;
+  }
+  .circle:nth-child(3){
+    background-color: yellow;
+  }
+  .circle:hover {
+background-color: brown;  
+outline: auto; 
+outline-color: black;
+ } 
